@@ -26,6 +26,7 @@
 (require-package 'scratch)
 (require-package 'xclip)
 (require-package 'dockerfile-mode)
+(require-package 'puppet-mode)
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
