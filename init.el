@@ -36,6 +36,7 @@
 (require 'init-ibuffer)
 (require 'init-flycheck)
 
+(require 'init-golden)
 (require 'init-recentf)
 (require 'init-smex)
 (require 'init-ivy)
