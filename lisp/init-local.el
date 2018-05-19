@@ -1,10 +1,6 @@
 ;; Custom Keybindings
 (global-set-key (kbd "M-+") 'beginning-of-buffer)
 (global-set-key (kbd "M-#") 'end-of-buffer)
-(global-set-key (kbd "C-c e") #'er/expand-region)
-
-;; Insert Date. TODO: make shortcut
-;; C-u M-! date
 
 ;; Enable line numbers
 (global-linum-mode t)
