@@ -2,6 +2,9 @@
 (global-set-key (kbd "M-+") 'beginning-of-buffer)
 (global-set-key (kbd "M-#") 'end-of-buffer)
 
+(defun insert-current-date () (interactive)
+  (insert (shell-command-to-string "echo -n $(date +%Y-%m-%d)")))
+
 ;; Enable line numbers
 (global-linum-mode t)
 (setq linum-format "%3d ")
