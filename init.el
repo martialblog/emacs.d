@@ -27,6 +27,7 @@
 (require-package 'xclip)
 (require-package 'dockerfile-mode)
 (require-package 'puppet-mode)
+(require-package 'groovy-mode)
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
