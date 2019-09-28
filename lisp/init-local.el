@@ -13,7 +13,7 @@
 (setq default-directory (concat (getenv "HOME") "/"))
 
 ;; xclip Mode for copy-paste
-(xclip-mode 1)
+;; (xclip-mode 1)
 
 ;; bibtex stuff
 (setq bibtex-align-at-equal-sign t)
