@@ -1,5 +1,4 @@
 ;;; Themes
-(require-package 'apropospriate-theme)
 (require-package 'zenburn-theme)
 
 ;; If you don't customize it, this is the theme you get.
@@ -18,16 +17,6 @@
 ;;------------------------------------------------------------------------------
 ;; Toggle between themes
 ;;------------------------------------------------------------------------------
-
-(defun dark ()
-  "Activate apropospriate theme."
-  (interactive)
-  (load-theme 'apropospriate-dark t))
-
-(defun light ()
-  "Activate apropospriate theme."
-  (interactive)
-  (load-theme 'apropospriate-light t))
 
 (defun zen ()
   "Activate zenburn theme."

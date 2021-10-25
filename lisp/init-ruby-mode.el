@@ -56,7 +56,6 @@
               (lambda () (sanityinc/local-push-company-backend 'company-robe)))))
 
 
-
 ;; Customise highlight-symbol to not highlight do/end/class/def etc.
 (defun sanityinc/suppress-ruby-mode-keyword-highlights ()
   "Suppress highlight-symbol for do/end etc."
@@ -65,26 +64,19 @@
 (add-hook 'ruby-mode-hook 'sanityinc/suppress-ruby-mode-keyword-highlights)
 
 
-
 ;;; ri support
 (require-package 'yari)
 (defalias 'ri 'yari)
 
 
-
-(require-package 'goto-gem)
-
-
 (require-package 'bundler)
 
-
 ;;; YAML
 
 (when (maybe-require-package 'yaml-mode)
   (add-auto-mode 'yaml-mode "\\.yml\\.erb\\'"))
 
 
-
 ;;; ERB
 (require-package 'mmm-mode)
 (defun sanityinc/ensure-mmm-erb-loaded ()
