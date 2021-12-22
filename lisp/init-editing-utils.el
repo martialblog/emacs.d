@@ -142,6 +142,8 @@
 
 
 (require-package 'move-dup)
+(global-move-dup-mode)
+
 (global-set-key [M-up] 'md/move-lines-up)
 (global-set-key [M-down] 'md/move-lines-down)
 (global-set-key [M-S-up] 'md/move-lines-up)
