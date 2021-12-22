@@ -142,6 +142,8 @@
 
 
 (require-package 'move-dup)
+(global-move-dup-mode)
+
 (global-set-key [M-up] 'md/move-lines-up)
 (global-set-key [M-down] 'md/move-lines-down)
 (global-set-key [M-S-up] 'md/move-lines-up)
@@ -153,10 +155,10 @@
 ;;----------------------------------------------------------------------------
 ;; Cut/copy the current line if no region is active
 ;;----------------------------------------------------------------------------
-(require-package 'whole-line-or-region)
-(add-hook 'after-init-hook 'whole-line-or-region-mode)
-(after-load 'whole-line-or-region
-  (diminish 'whole-line-or-region-local-mode))
+; (require-package 'whole-line-or-region)
+; (add-hook 'after-init-hook 'whole-line-or-region-mode)
+; (after-load 'whole-line-or-region
+;  (diminish 'whole-line-or-region-local-mode))
 
 (defun suspend-mode-during-cua-rect-selection (mode-name)
   "Add an advice to suspend `MODE-NAME' while selecting a CUA rectangle."
