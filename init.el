@@ -60,7 +60,7 @@
 (require 'init-python-mode)
 (require 'init-ruby-mode)
 (require 'init-sql)
-(require 'init-docker)
+(require 'init-container)
 (require 'init-ansible)
 
 ;;; Start Emacs Server
