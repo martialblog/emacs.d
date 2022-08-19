@@ -76,6 +76,7 @@
 (add-hook 'after-init-hook 'global-undo-tree-mode)
 (after-load 'undo-tree
   (diminish 'undo-tree-mode))
+(setq undo-tree-auto-save-history nil)
 
 (when (maybe-require-package 'symbol-overlay)
   (dolist (hook '(prog-mode-hook html-mode-hook css-mode-hook yaml-mode-hook conf-mode-hook))

@@ -32,6 +32,8 @@
 (require-package 'diminish)
 (require-package 'scratch)
 
+(require-package 'puppet-mode)
+
 (require 'init-frame-hooks)
 (require 'init-themes)
 (require 'init-isearch)
