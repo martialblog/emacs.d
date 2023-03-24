@@ -58,6 +58,7 @@
 (require 'init-markdown)
 (require 'init-javascript)
 (require 'init-golang)
+(require 'init-rust)
 (require 'init-html)
 (require 'init-python-mode)
 (require 'init-ruby-mode)
