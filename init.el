@@ -16,7 +16,9 @@
 
 (defconst sanityinc/initial-gc-cons-threshold gc-cons-threshold
    "Initial value of `gc-cons-threshold' at start-up time.")
- (setq gc-cons-threshold (* 128 1024 1024))
+
+(setq gc-cons-threshold (* 128 1024 1024))
+
 (add-hook 'after-init-hook
           (lambda () (setq gc-cons-threshold sanityinc/initial-gc-cons-threshold)))
 
@@ -49,6 +51,7 @@
 (require 'init-sessions)
 (require 'init-fonts)
 (require 'init-mmm)
+(require 'init-eglot)
 
 (require 'init-editing-utils)
 (require 'init-whitespace)
