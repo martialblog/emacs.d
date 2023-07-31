@@ -6,8 +6,12 @@
   (insert (shell-command-to-string "echo -n $(date +%Y-%m-%d)")))
 
 ;; Enable line numbers
-(global-linum-mode t)
-(setq linum-format "%3d ")
+(when (version<= emacs-version "26.0.50")
+  (global-linum-mode t)
+  (setq linum-format "%3d "))
+
+(when (>= emacs-major-version 26)
+  (global-display-line-numbers-mode t))
 
 ;; Default directory setting
 (setq default-directory (concat (getenv "HOME") "/"))
