@@ -59,7 +59,6 @@
 (require 'init-git)
 
 (require 'init-markdown)
-(require 'init-javascript)
 (require 'init-golang)
 (require 'init-rust)
 (require 'init-html)
