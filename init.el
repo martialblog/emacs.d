@@ -63,6 +63,7 @@
 (require 'init-rust)
 (require 'init-html)
 (require 'init-python-mode)
+(require 'init-php-mode)
 (require 'init-ruby-mode)
 (require 'init-sql)
 (require 'init-container)
