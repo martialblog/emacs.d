@@ -46,6 +46,7 @@
 ;;; Language specific
 (require 'init-markdown)
 (require 'init-typst)
+(require 'init-yaml)
 (require 'init-golang)
 (require 'init-rust)
 (require 'init-php-mode)
