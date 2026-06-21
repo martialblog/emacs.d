@@ -49,6 +49,7 @@
 (require 'init-yaml)
 (require 'init-golang)
 (require 'init-rust)
+(require 'init-lua)
 (require 'init-php-mode)
 
 ;;; Start Emacs Server
