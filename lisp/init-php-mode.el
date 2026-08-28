@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t; -*-
 (require-package 'php-mode)
 
 (defvar phpactor-executable (concat (getenv "HOME") "/github/php/phpactor/bin/phpactor"))

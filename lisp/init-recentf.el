@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (recentf-mode 1)
 (setq-default
  recentf-max-saved-items 1000

@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Themes
 (require-package 'zenburn-theme)
 

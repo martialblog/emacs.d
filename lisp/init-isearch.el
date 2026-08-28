@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;; Activate occur easily inside isearch
 (define-key isearch-mode-map (kbd "C-o") 'isearch-occur)
 

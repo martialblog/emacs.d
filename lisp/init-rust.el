@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (require-package 'rust-mode)
 
 (setq rust-format-on-save t)

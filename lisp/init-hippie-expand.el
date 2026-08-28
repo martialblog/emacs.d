@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (global-set-key (kbd "M-.") 'hippie-expand)
 
 (setq hippie-expand-try-functions-list

@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;; Use smex to handle M-x
 (when (maybe-require-package 'smex)
   ;; Change path for ~/.smex-items

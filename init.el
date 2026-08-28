@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Init 
 ;;;
 ;;; (file-error "https://elpa.gnu.org/packages/archive-contents" "Bad Request")
@@ -48,9 +50,9 @@
 (require 'init-typst)
 (require 'init-yaml)
 (require 'init-golang)
-(require 'init-rust)
 (require 'init-lua)
 (require 'init-php-mode)
+(require 'init-odin)
 
 ;;; Start Emacs Server
 (require 'server)

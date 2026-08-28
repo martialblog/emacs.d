@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; init-corfu.el - Interactive completion in buffers
 (require-package 'corfu)
 
@@ -14,8 +16,9 @@
 (with-eval-after-load 'corfu
   (corfu-popupinfo-mode))
 
-(when (maybe-require-package 'corfu-terminal)
-  (with-eval-after-load 'corfu
-    (corfu-terminal-mode)))
+(when (version< emacs-version "31")
+   (when (maybe-require-package 'corfu-terminal)
+     (with-eval-after-load 'corfu
+       (corfu-terminal-mode))))
 
 (provide 'init-corfu)

@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Set load path
 
 (defun sanityinc/add-subdirs-to-load-path (parent-dir)

@@ -1,4 +1,6 @@
-;;;Ivy - a generic completion frontend for Emacs
+;; -*- lexical-binding: t; -*-
+
+;;; Ivy - a generic completion frontend for Emacs
 (when (maybe-require-package 'ivy)
   (after-load 'ivy
     (setq-default ivy-use-virtual-buffers t

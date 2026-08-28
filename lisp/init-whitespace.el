@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (setq-default show-trailing-whitespace t)
 
 ;;; Whitespace

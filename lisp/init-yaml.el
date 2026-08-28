@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (require-package 'yaml-mode)
 (require-package 'highlight-indentation)
 

@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;; Custom Keybindings
 (global-set-key (kbd "M-+") 'beginning-of-buffer)
 (global-set-key (kbd "M-#") 'end-of-buffer)
