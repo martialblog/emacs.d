@@ -30,6 +30,7 @@
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (require 'init-utils)
+(require 'init-treesitter)
 (require 'init-site-lisp)
 (require 'init-elpa)
 
@@ -49,6 +50,7 @@
 (require 'init-markdown)
 (require 'init-typst)
 (require 'init-yaml)
+(require 'init-typescript)
 (require 'init-golang)
 (require 'init-lua)
 (require 'init-php-mode)

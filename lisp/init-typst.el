@@ -1,5 +1,7 @@
 ;; -*- lexical-binding: t; -*-
 
+(require-package 'typst-ts-mode)
+
 (defvar tinymist-executable (concat (getenv "HOME") "/.local/bin/tinymist"))
 
 (with-eval-after-load 'eglot
